@@ -102,7 +102,7 @@ server.use(express.urlencoded({ extended: true }))
 
 // configuração do nunjucks
 const nunjucks = require("nunjucks")
-nunjucks.configure("views", {
+nunjucks.configure("", {
     express: server,
     // noCache: true, //boolean 
     // cache guarda algumas coisas em memória para usar mais tarde 
